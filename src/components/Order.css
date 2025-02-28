@@ -1,0 +1,140 @@
+.order-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .order-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .order-item {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .order-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .order-status {
+    font-weight: bold;
+  }
+  
+  .order-status.pending {
+    color: #ff9800;
+  }
+  
+  .order-status.paid {
+    color: #4caf50;
+  }
+  
+  .order-status.cancelled {
+    color: #f44336;
+  }
+  
+  .order-books {
+    padding: 1rem;
+  }
+  
+  .order-book-item {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .order-book-item:last-child {
+    border-bottom: none;
+  }
+  
+  .order-book-item img {
+    width: 80px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .book-info {
+    flex: 1;
+  }
+  
+  .book-info h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.1rem;
+  }
+  
+  .price {
+    color: #e53935;
+    font-weight: bold;
+  }
+  
+  .quantity {
+    color: #666;
+  }
+  
+  .order-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f5f5f5;
+    border-top: 1px solid #eee;
+  }
+  
+  .order-total {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .order-actions {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .pay-btn {
+    padding: 0.5rem 2rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: auto;
+  }
+  
+  .cancel-btn {
+    padding: 0.5rem 2rem;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: auto;
+  }
+  
+  .back-btn {
+    margin-top: 2rem;
+    padding: 0.5rem 2rem;
+    background-color: #757575;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: auto;
+  }
+  
+  .empty-order {
+    text-align: center;
+    padding: 2rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }

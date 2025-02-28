@@ -1,0 +1,132 @@
+.cart-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .cart-items {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    gap: 2rem;
+  }
+  
+  .cart-item img {
+    width: 100px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .item-info {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .item-info h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.1rem;
+  }
+  
+  .price {
+    color: #e53935;
+    font-weight: bold;
+  }
+  
+  .quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .quantity-btn {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border: 1px solid #333; /* 修改边框颜色为黑色 */
+    background: white;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #333; /* 修改文字颜色为黑色 */
+    font-size: 16px; /* 调整字体大小 */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* 确保加减号垂直居中 */
+    line-height: 1; /* 确保文字垂直居中 */
+  }
+  
+  .quantity {
+    min-width: 40px;
+    text-align: center;
+    font-size: 16px; /* 匹配按钮的字体大小 */
+    line-height: 30px; /* 与按钮高度相同，实现垂直对齐 */
+    display: inline-block; /* 确保高度生效 */
+  }
+  
+  .quantity-btn:hover {
+    background-color: #f5f5f5; /* 添加悬停效果 */
+  }
+  
+  .remove-btn {
+    padding: 0.5rem 1rem;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: auto;
+  }
+  
+  .cart-summary {
+    margin-top: 2rem;
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .total {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .checkout-btn {
+    padding: 0.5rem 2rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: auto;
+  }
+  
+  .back-btn {
+    margin-top: 2rem;
+    padding: 0.5rem 2rem;
+    background-color: #757575;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: auto;
+  }
+  
+  .empty-cart {
+    text-align: center;
+    padding: 2rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }

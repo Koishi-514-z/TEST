@@ -1,0 +1,222 @@
+export const books = [
+    {
+      id: 1,
+      title: "JavaScript高级程序设计（第4版）",
+      author: "Matt Frisbie",
+      isbn: "9787115545381",
+      publisher: "人民邮电出版社",
+      publishDate: "2020-07-01",
+      stock: 50,
+      price: 129.00,
+      cover: "/image/books/1.jpg"
+    },
+    {
+      id: 2,
+      title: "深入理解Java虚拟机（第3版）",
+      author: "周志明",
+      isbn: "9787111641247",
+      publisher: "机械工业出版社",
+      publishDate: "2019-12-01",
+      stock: 35,
+      price: 129.00,
+      cover: "/image/books/2.jpg"
+    },
+    {
+      id: 3,
+      title: "算法导论（第3版）",
+      author: "Thomas H.Cormen",
+      isbn: "9787111407010",
+      publisher: "机械工业出版社",
+      publishDate: "2012-12-01",
+      stock: 60,
+      price: 128.00,
+      cover: "/image/books/3.jpg"
+    },
+    {
+      id: 4,
+      title: "Python编程：从入门到实践（第2版）",
+      author: "Eric Matthes",
+      isbn: "9787115546081",
+      publisher: "人民邮电出版社",
+      publishDate: "2020-06-01",
+      stock: 45,
+      price: 89.00,
+      cover: "/image/books/4.jpg"
+    },
+    {
+      id: 5,
+      title: "Vue.js设计与实现",
+      author: "霍春阳",
+      isbn: "9787115583864",
+      publisher: "人民邮电出版社",
+      publishDate: "2022-04-01",
+      stock: 55,
+      price: 99.00,
+      cover: "/image/books/5.jpg"
+    },
+    {
+      id: 6,
+      title: "Redis设计与实现",
+      author: "黄健宏",
+      isbn: "9787111464747",
+      publisher: "机械工业出版社",
+      publishDate: "2014-06-01",
+      stock: 30,
+      price: 79.00,
+      cover: "/image/books/6.jpg"
+    },
+    {
+      id: 7,
+      title: "Node.js设计模式（第3版）",
+      author: "Mario Casciaro",
+      isbn: "9787115566096",
+      publisher: "人民邮电出版社",
+      publishDate: "2021-08-01",
+      stock: 40,
+      price: 119.00,
+      cover: "/image/books/7.jpg"
+    },
+    {
+      id: 8,
+      title: "深入理解计算机系统",
+      author: "Randal E.Bryant",
+      isbn: "9787115583727",
+      publisher: "机械工业出版社",
+      publishDate: "2016-11-01",
+      stock: 65,
+      price: 69.00,
+      cover: "/image/books/8.jpg"
+    },
+    {
+      id: 9,
+      title: "CSS新世界",
+      author: "张鑫旭",
+      isbn: "9787115566799",
+      publisher: "人民邮电出版社",
+      publishDate: "2021-09-01",
+      stock: 50,
+      price: 99.00,
+      cover: "/image/books/9.jpg"
+    },
+    {
+      id: 10,
+      title: "Spring实战（第6版）",
+      author: "Craig Walls",
+      isbn: "9787115582577",
+      publisher: "人民邮电出版社",
+      publishDate: "2022-01-01",
+      stock: 45,
+      price: 119.00,
+      cover: "/image/books/10.jpg"
+    },
+    {
+      id: 11,
+      title: "深度学习入门：基于Python的理论与实现",
+      author: "斋藤康毅",
+      isbn: "9787115488244",
+      publisher: "人民邮电出版社",
+      publishDate: "2018-08-01",
+      stock: 35,
+      price: 69.00,
+      cover: "/image/books/11.jpg"
+    },
+    {
+      id: 12,
+      title: "Docker技术入门与实战（第3版）",
+      author: "张新科",
+      isbn: "9787115537415",
+      publisher: "人民邮电出版社",
+      publishDate: "2020-03-01",
+      stock: 40,
+      price: 89.00,
+      cover: "/image/books/12.jpg"
+    },
+    {
+      id: 13,
+      title: "微服务架构设计模式",
+      author: "Chris Richardson",
+      isbn: "9787111636601",
+      publisher: "机械工业出版社",
+      publishDate: "2019-10-01",
+      stock: 55,
+      price: 139.00,
+      cover: "/image/books/13.jpg"
+    },
+    {
+      id: 14,
+      title: "计算机网络：自顶向下方法（第7版）",
+      author: "James F.Kurose",
+      isbn: "9787111599715",
+      publisher: "机械工业出版社",
+      publishDate: "2018-06-01",
+      stock: 60,
+      price: 89.00,
+      cover: "/image/books/14.jpg"
+    },
+    {
+      id: 15,
+      title: "TypeScript编程",
+      author: "Boris Cherny",
+      isbn: "9787115537250",
+      publisher: "人民邮电出版社",
+      publishDate: "2020-04-01",
+      stock: 45,
+      price: 99.00,
+      cover: "/image/books/15.jpg"
+    },
+    {
+      id: 16,
+      title: "MySQL技术内幕：InnoDB存储引擎（第2版）",
+      author: "姜承尧",
+      isbn: "9787111456534",
+      publisher: "机械工业出版社",
+      publishDate: "2013-08-01",
+      stock: 50,
+      price: 69.00,
+      cover: "/image/books/16.jpg"
+    },
+    {
+      id: 17,
+      title: "代码整洁之道",
+      author: "Robert C.Martin",
+      isbn: "9787115216878",
+      publisher: "人民邮电出版社",
+      publishDate: "2010-01-01",
+      stock: 40,
+      price: 59.00,
+      cover: "/image/books/17.jpg"
+    },
+    {
+      id: 18,
+      title: "Linux命令行大全（第2版）",
+      author: "William Shotts",
+      isbn: "9787115559333",
+      publisher: "人民邮电出版社",
+      publishDate: "2021-03-01",
+      stock: 35,
+      price: 128.00,
+      cover: "/image/books/18.jpg"
+    },
+    {
+      id: 19,
+      title: "深入浅出Webpack",
+      author: "吴浩麟",
+      isbn: "9787115505477",
+      publisher: "人民邮电出版社",
+      publishDate: "2019-05-01",
+      stock: 55,
+      price: 69.00,
+      cover: "/image/books/19.jpg"
+    },
+    {
+      id: 20,
+      title: "区块链革命",
+      author: "Don Tapscott",
+      isbn: "9787508672069",
+      publisher: "中信出版社",
+      publishDate: "2016-12-01",
+      stock: 30,
+      price: 79.00,
+      cover: "/image/books/20.jpg"
+    }
+  ];

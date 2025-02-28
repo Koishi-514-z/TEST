@@ -1,0 +1,87 @@
+.profile-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .profile-content {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .avatar-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .avatar-container {
+    text-align: center;
+  }
+  
+  .avatar-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 3px solid #61dafb;
+  }
+  
+  .avatar-upload {
+    margin-top: 1rem;
+  }
+  
+  .upload-button {
+    background-color: #61dafb;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    transition: background-color 0.3s;
+  }
+  
+  .upload-button:hover {
+    background-color: #4fa8d3;
+  }
+  
+  .user-info {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .info-item {
+    display: flex;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .info-item label {
+    font-weight: bold;
+    width: 100px;
+  }
+  
+  .info-item span {
+    flex: 1;
+    color: #666;
+  }
+  
+  .back-btn {
+    margin-top: 2rem;
+    padding: 0.5rem 2rem;
+    background-color: #757575;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: auto;
+  }
+  
+  .back-btn:hover {
+    background-color: #616161;
+  }
